@@ -43,7 +43,7 @@ def generate_problem(sentence:str , sub_str="_______", n=1):
     return " ".join(words),  answers
 
 sentences=[]
-with open('test_example.txt','r') as f:
+with open('examples.txt','r') as f:
     
     for line in f:
         line = normalization(line.strip()) 
